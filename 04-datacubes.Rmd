@@ -306,7 +306,7 @@ After registration, you will need to obtain access credentials to the S3 service
 ```{r, echo = TRUE, eval = FALSE}
 Sys.setenv(
     AWS_ACCESS_KEY_ID = "your access key",
-    AWS_SECRET_ACCESS_KEY = "your secret access key"
+    AWS_SECRET_ACCESS_KEY = "your secret access key",
 	  AWS_S3_ENDPOINT = "eodata.dataspace.copernicus.eu",
 	  AWS_VIRTUAL_HOSTING = "FALSE"
 )
